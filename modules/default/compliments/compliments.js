@@ -144,7 +144,7 @@ Module.register("compliments",{
 
 		var compliment = document.createTextNode(complimentText);
 		var wrapper = document.createElement("div");
-		wrapper.className = this.config.classes ? this.config.classes : "thin xlarge bright";
+		wrapper.className = this.config.classes ? this.config.classes : "thin xlarge bright morning afternoon evening";
 		wrapper.appendChild(compliment);
 
 		return wrapper;
